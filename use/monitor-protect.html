@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/astra-control-center-2112/issues/new?body=Page%3A%20[监控和保护基础架构](https://docs.netapp.com/zh-cn/astra-control-center-2112/use/monitor-protect.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/astra-control-center-2112/images/discuss-sm.svg" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/astra-control-center-2112/blob/main/use/monitor-protect.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/astra-control-center-2112/images/edit-sm.svg" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/astra-control-center-2112/images/article-sm.svg" class="github-icon" />提供者指南</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/astra-control-center-2112/issues/new?body=Page%3A%20[监控和保护基础架构](https://docs.netapp.com/zh-cn/astra-control-center-2112/use/monitor-protect.html)" class="page-nav-contribute-link" role="button"><img src="/zh-cn/astra-control-center-2112/images/discuss-sm.svg" alt="" class="github-icon" />请求文档变更</a><a target="_blank" href="https://github.com/NetAppDocs/astra-control-center-2112/blob/main/use/monitor-protect.adoc" class="page-nav-contribute-link" role="button"><img src="/zh-cn/astra-control-center-2112/images/edit-sm.svg" alt="" class="github-icon" />在 GitHub 上编辑</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/zh-cn/astra-control-center-2112/images/article-sm.svg" alt="" class="github-icon" />提供者指南</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">在此页面上</div>
@@ -258,11 +258,13 @@
           <div id="react-search" 
           data-search-html="/zh-cn/astra-control-center-2112/search.html"
           data-type="widget" 
-          data-placeholder="搜索文档" 
-          data-no-results-found="未找到与 {query} 匹配的结果。" 
-          data-did-you-mean="搜索 {suggestion}。" 
-          data-no-results-found-did-you-mean="未找到与 {query} 匹配的结果。您是否要搜索 {suggestion}?" 
-          data-results-found="找到 {hitCount} 个结果"  
+          data-placeholder="搜索文档"
+          data-no-results-found="未找到与 {query} 匹配的结果。"
+          data-did-you-mean="搜索 {suggestion}。"
+          data-no-results-found-did-you-mean="未找到与 {query} 匹配的结果。您是否要搜索 {suggestion}?"
+          data-results-found="找到 {hitCount} 个结果"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -277,35 +279,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">简体中文</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">简体中文</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/astra-control-center-2112/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/astra-control-center-2112/use/monitor-protect.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/astra-control-center-2112/use/monitor-protect.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/astra-control-center-2112/use/monitor-protect.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/astra-control-center-2112/use/monitor-protect.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/astra-control-center-2112/use/monitor-protect.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/zh-cn/astra-control-center-2112/use/monitor-protect.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/astra-control-center-2112/use/monitor-protect.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/astra-control-center-2112/use/monitor-protect.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/astra-control-center-2112/use/monitor-protect.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/astra-control-center-2112/use/monitor-protect.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -349,7 +343,7 @@
   <div class="col-md-3" id="sidebar-height">
       <div class="n-pdf-header">
   <a id="toggleButtonPdf" class="n-pdf-button" type="button">
-    <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>可用的 PDF<span>
+    <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>可用的 PDF<span>
     </span>
   </a>
 </div>
@@ -359,7 +353,7 @@
         
         
         <a target="_blank" href="/zh-cn/astra-control-center-2112/pdfs/fullsite-sidebar/Astra_Control_Center_21_12_文档.pdf" >
-          <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>此文档站点的 PDF</a>
+          <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>此文档站点的 PDF</a>
 
 
 
@@ -374,7 +368,7 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/发行说明.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             发行说明
           </a>
           
@@ -388,8 +382,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -409,7 +401,7 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/概念.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             概念
           </a>
           
@@ -423,8 +415,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -444,7 +434,7 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/入门.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             入门
           </a>
           
@@ -464,7 +454,7 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/安装概述.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             安装概述
           </a>
           
@@ -472,8 +462,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -493,7 +481,7 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/设置_Astra_控制中心.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             设置 Astra 控制中心
           </a>
           
@@ -501,8 +489,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -512,8 +498,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -533,7 +517,7 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/使用_Astra.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             使用 Astra
           </a>
           
@@ -549,7 +533,7 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/管理应用程序.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             管理应用程序
           </a>
           
@@ -557,8 +541,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -578,7 +560,7 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/保护应用程序.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             保护应用程序
           </a>
           
@@ -602,14 +584,12 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/管理应用程序执行挂钩.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             管理应用程序执行挂钩
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -617,8 +597,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -638,7 +616,7 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/查看应用程序和集群运行状况.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             查看应用程序和集群运行状况
           </a>
           
@@ -648,8 +626,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -669,7 +645,7 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/管理您的帐户.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             管理您的帐户
           </a>
           
@@ -683,8 +659,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -696,14 +670,7 @@
 
 
 
-    <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
-  <a target="_blank" href="/zh-cn/astra-control-center-2112/pdfs/pages/use/monitor-protect.pdf" >
-    <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
-    PDF of this page
-  </a>
-</li>
-
-</ul>
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
   
 
 
@@ -715,8 +682,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -736,14 +701,12 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/使用_REST_API_实现自动化.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             使用 REST API 实现自动化
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -763,7 +726,7 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/部署应用程序.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             部署应用程序
           </a>
           
@@ -775,8 +738,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -796,7 +757,7 @@
               href="/zh-cn/astra-control-center-2112/pdfs/sidebar/知识和支持.pdf" 
             
           >
-            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/zh-cn/astra-control-center-2112/images/pdf.png" alt="" width="16" height="16"/>
             知识和支持
           </a>
           
@@ -804,8 +765,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -816,11 +775,10 @@
 
 
 
-
 </li></ul>
   <div class="zip-pdf-link-container" style="display: none;">   
     <a href="#" id="zipPdf">
-      <img src="/zh-cn/astra-control-center-2112/images/pdf-zip.png" width="16" height="16"/>
+      <img src="/zh-cn/astra-control-center-2112/images/pdf-zip.png" alt="" width="16" height="16"/>
       <pre>收集单独的 PDF 文档<span class="zip-size"></span></pre>
     </a><div id="zip-link-popup" class="hide">
     <div class="inner-modal">
@@ -853,7 +811,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-cn/astra-control-center-2112/index.html">
         Astra Control Center 21.12文档
       </a></li><li class="subfolders "><a href="/zh-cn/astra-control-center-2112/release-notes/rn_overview.html">
@@ -1703,4 +1661,5 @@ Astra 控制中心不会验证您为 Fluentd 服务器输入的详细信息。�
     </script>
     <script src='/zh-cn/astra-control-center-2112/js/www-ntap.js'></script>
     <script src='/zh-cn/astra-control-center-2112/js/tabbed-blocks.js'></script>
+    <script src='/zh-cn/astra-control-center-2112/js/sidebar.js'></script>
   </body></html>
