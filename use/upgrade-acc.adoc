@@ -38,13 +38,13 @@ oc get apiservices
 
 Astra 控制中心升级过程将指导您完成以下高级步骤：
 
-* <<Download the Astra Control Center bundle>>
-* <<Unpack the bundle and change directory>>
-* <<Add the images to your local registry>>
-* <<Install the updated Astra Control Center operator>>
-* <<Upgrade Astra Control Center>>
-* <<Upgrade third-party services>>
-* <<Verify system status>>
+*  the Astra Control Center bundle
+*  the bundle and change directory
+*  the images to your local registry
+*  the updated Astra Control Center operator
+*  Astra Control Center
+*  third-party services
+*  system status
 
 
 
@@ -142,8 +142,8 @@ vim astra_control_center_operator_deploy.yaml
 imagePullSecrets:
 - name: <name_of_secret_with_creds_to_local_registry>
 ----
-.. 将 `Kube-RBAC 代理` 映像的 ` [yor_registry_path]` 更改为将映像推入的注册表路径 <<substep_image_local_registry_push,上一步>>。
-.. 将 `Acc-operator-controller-manager` 映像的 ` [yor_registry_path]` 更改为在中推送映像的注册表路径 <<substep_image_local_registry_push,上一步>>。
+.. 将 `Kube-RBAC 代理` 映像的 ` [yor_registry_path]` 更改为将映像推入的注册表路径 ,上一步。
+.. 将 `Acc-operator-controller-manager` 映像的 ` [yor_registry_path]` 更改为在中推送映像的注册表路径 ,上一步。
 
 
 +
@@ -229,7 +229,7 @@ kubectl edit acc -n [netapp-acc or custom namespace]
 ----
 +
 
-NOTE: 只有在升级 Astra 控制中心时才需要更改 Astra 版本。注册表路径必须与中推送映像的注册表路径匹配 <<substep_image_local_registry_push,上一步>>。
+NOTE: 只有在升级 Astra 控制中心时才需要更改 Astra 版本。注册表路径必须与中推送映像的注册表路径匹配 ,上一步。
 
 . 验证 Pod 是否终止并重新可用：
 +
@@ -356,9 +356,9 @@ conditions:
 
 在先前的升级步骤中，不会升级第三方服务 Traefik 和 Cert-manager 。您可以选择使用此处所述的操作步骤对其进行升级，也可以在系统需要时保留现有服务版本。以下是建议的 Traefik 和 Cert-manager 升级顺序：
 
-. <<Set up acc-helm-repo to upgrade Traefik and Cert-manager>>
-. <<Update Traefik service using acc-helm-repo>>
-. <<Update the Cert-manager service>>
+.  up acc-helm-repo to upgrade Traefik and Cert-manager
+.  Traefik service using acc-helm-repo
+.  the Cert-manager service
 
 
 
@@ -459,7 +459,7 @@ python3.7 ./set_previous_values.py
 == 使用 Acc-hel-repo 更新 Traefik 服务
 
 
-NOTE: 您必须已拥有 <<Set up acc-helm-repo to upgrade Traefik and Cert-manager,设置 ac-hel-repo>> 完成以下操作步骤之前。
+NOTE: 您必须已拥有  up acc-helm-repo to upgrade Traefik and Cert-manager,设置 ac-hel-repo 完成以下操作步骤之前。
 
 . 使用安全的文件传输工具下载 Traefik 捆绑包，例如 GNU wget ：
 +
@@ -539,7 +539,7 @@ TEST SUITE: None
 == 更新证书管理器服务
 
 
-NOTE: 您必须已完成 <<Update Traefik service using acc-helm-repo,Traefik 更新>> 和 <<Set up acc-helm-repo to upgrade Traefik and Cert-manager,在 Helm 中添加了 act-helm-repo>> 完成以下操作步骤之前。
+NOTE: 您必须已完成  Traefik service using acc-helm-repo,Traefik 更新 和  up acc-helm-repo to upgrade Traefik and Cert-manager,在 Helm 中添加了 act-helm-repo 完成以下操作步骤之前。
 
 . 查找要与升级后的证书管理器结合使用的 Helm 图表版本：
 +

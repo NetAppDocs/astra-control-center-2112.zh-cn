@@ -39,7 +39,7 @@ NOTE: 虽然 Astra 控制中心支持将 Amazon S3 作为通用 S3 存储分段�
 您可以执行以下与管理存储分段相关的任务：
 
 * link:../get-started/setup_overview.html#add-a-bucket["添加存储分段"]
-* <<Edit a bucket>>
+*  a bucket
 
 
 
