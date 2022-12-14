@@ -548,15 +548,11 @@
   <block id="9c4b5c958d6364ac3b17f0aa5a50e29d" category="paragraph">您可以使用 Astra 控制中心为应用程序创建备份，克隆，快照和保护策略。备份应用程序可帮助您的服务和关联数据尽可能地可用；在灾难情形下，从备份还原可以确保应用程序及其关联数据的完全恢复，而不会造成任何中断。备份，克隆和快照有助于防止常见威胁，例如勒索软件，意外数据丢失和环境灾难。 <block ref="6b6e09024640eb9ec4bbda9f054e4ca3" category="inline-link-macro-rx"></block>。</block>
   <block id="fe2011653552de71bf2a04defdef5e3d" category="section-title">应用程序保护工作流</block>
   <block id="9e3e52a15539d6b76c9af7b7c901f2dc" category="paragraph">您可以使用以下示例工作流开始保护应用程序。</block>
-  <block id="a04c6aa912ab1752fccd834c4a0468b9" category="section-title">备份所有应用程序</block>
   <block id="cdb972c8ec0f0d2d064eee29da832b09" category="inline-link-macro">为所有应用程序创建手动备份</block>
   <block id="bb9745866a03e99751c67559a4b5bbfc" category="paragraph">要确保您的应用程序立即受到保护， <block ref="153c1de46633dd7b9ee4197b0f57d4e6" category="inline-link-macro-rx"></block>。</block>
-  <block id="fc728311492264f387b6d56bf7f401d9" category="section-title">为每个应用程序配置一个保护策略</block>
   <block id="67d8aac0ef877e89b323dda77c01cdc7" category="inline-link-macro">为每个应用程序配置一个保护策略</block>
   <block id="a6f3f1cac5047bfc8c8a549d7555afb4" category="paragraph">要自动执行未来备份和快照， <block ref="be33481d5db8c6459d2a9f9986e47ba8" category="inline-link-macro-rx"></block>。例如，您可以从每周备份和每日快照开始，这两种备份均保留一个月。强烈建议使用保护策略自动执行备份和快照，而不是手动备份和快照。</block>
-  <block id="68db57ac71c439bd714299714a3d5cd5" category="section-title">可选：调整保护策略</block>
   <block id="2afcb2016ee556b04a072d6535bbab55" category="paragraph">随着应用程序及其使用模式的变化，根据需要调整保护策略以提供最佳保护。</block>
-  <block id="ae923994b95458260e1a5b8c8c593bf1" category="section-title">发生灾难时，请还原您的应用程序</block>
   <block id="7ce9ebbb5de6892ca270cea878bd99d1" category="inline-link-macro">还原最新备份</block>
   <block id="dd27127bd92a34c602fa40bc2a1cdd3e" category="paragraph">如果发生数据丢失，您可以通过进行恢复 <block ref="550aec8aa1d184571b143fbb368e4c54" category="inline-link-macro-rx"></block> 每个应用程序的第一个。然后，您可以还原最新的快照（如果可用）。</block>
   <block id="3f56b586fa072522750beb7ff617deb2" category="summary">要升级 Astra 控制中心，您需要下载此捆绑包并按照所述步骤进行升级。</block>
@@ -742,14 +738,12 @@
   <block id="a11ca2c2dd5144bf630dd5eb29b7cc67" category="list-text">输入符合密码要求的密码。</block>
   <block id="57d4c802b66507e7e8b66d11f3a59a6f" category="list-text">再次输入密码进行确认。</block>
   <block id="45e3b3a50e0542121cdf2766502b7b56" category="list-text">选择 * 更改密码 * 。</block>
-  <block id="90f1c6fc655d106b5040673f4fce5f99" category="section-title">重置其他用户的密码</block>
   <block id="777944860c5bbcdb1b4a4a0a593efb52" category="paragraph">如果您的帐户具有管理员或所有者角色权限，则可以重置其他用户帐户以及您自己的帐户的密码。重置密码时，您需要分配一个临时密码，用户必须在登录时更改此密码。</block>
   <block id="109438fb5a37882f518dc1879a8744ef" category="list-text">在 * 用户 * 选项卡中，为用户选择 * 状态 * 列中的下拉列表。</block>
   <block id="df429da64d721747277606b598df29c4" category="list-text">选择 * 重置密码 * 。</block>
   <block id="67873c21262ba112b2e21148d43428f5" category="list-text">输入符合密码要求的临时密码。</block>
   <block id="7d52685360edaccc999997fc87429251" category="admonition">用户下次登录时，系统将提示用户更改密码。</block>
   <block id="3930015dcc2810869591e35a2b5d714b" category="list-text">选择 * 重置密码 * 。</block>
-  <block id="a3f6d57c07e3d951867e570c6f3e5028" category="section-title">更改用户的角色</block>
   <block id="24c0d48852d7cd070e2d6f992f4c74ab" category="paragraph">具有所有者角色的用户可以更改所有用户的角色，而具有管理员角色的用户可以更改具有管理员，成员或查看器角色的用户的角色。</block>
   <block id="bda2a6db69313c6436901a69dc87e01b" category="list-text">在 * 用户 * 选项卡中，选择用户 * 角色 * 列中的下拉列表。</block>
   <block id="05a9626e14c53ce2e11d8519815be8dd" category="list-text">选择一个新角色，然后在出现提示时选择 * 更改角色 * 。</block>
@@ -1120,7 +1114,6 @@
   <block id="0543a7666bf24a7b098b17a6168941d2" category="list-text">从 " 分段 " 对话框中，选择 * 添加 * 或 * 使用现有 * 选项卡。</block>
   <block id="44c089fc47e708b71926c830cc30454e" category="list-text">在 Astra Control 中输入凭据名称，以便与其他凭据区分开。</block>
   <block id="43546cbd84ee48528f9cf248dcfb2c39" category="list-text">通过粘贴剪贴板中的内容来输入访问 ID 和机密密钥。</block>
-  <block id="3f297ef15cde0668e93b35f2752fd4fd" category="section-title">下一步是什么？</block>
   <block id="f5c61eabb41590a473fa2d0d115e63c1" category="paragraph">现在，您已登录并将集群添加到 Astra 控制中心，即可开始使用 Astra 控制中心的应用程序数据管理功能。</block>
   <block id="a2ef00bfa82a9800d86855a4a32ccef6" category="list-text"><block ref="a2ef00bfa82a9800d86855a4a32ccef6" category="inline-link-macro-rx"></block></block>
   <block id="a4338c4608081cbe5421e9459f9dc53a" category="list-text"><block ref="a4338c4608081cbe5421e9459f9dc53a" category="inline-link-macro-rx"></block></block>
@@ -1193,7 +1186,6 @@
   <block id="1d57e0a24077636df90da71912e901ba" category="list-text">保留默认存储类。</block>
   <block id="6b9265a82fa5bd326052ec55e040a54a" category="list-text">定义 CRD 处理首选项。</block>
   <block id="752136dc4b557a30d80aab0135d2d8d0" category="list-text">选择 `Create` 。</block>
-  <block id="0a20c90d5270bed19fcaf851778c663b" category="section-title">下一步行动</block>
   <block id="510a796972d54f6936dbae0081373fc0" category="inline-link-macro">设置任务</block>
   <block id="25bd4bfe1fe1f3d4f00d0a880c5c7b69" category="paragraph">验证是否已成功安装 Astra 控制中心并完成 <block ref="3a285f0bf32f130cd082e260eb98d4dd" category="inline-link-macro-rx"></block> 登录。此外，您还可以通过执行来完成部署 <block ref="c74ac040317626af0342a18a145cdbb7" category="inline-link-macro-rx"></block>。</block>
   <block id="254a18b3f13c4603a1e896ef9d067cab" category="summary">要在满足某些环境前提条件后安装 Astra 控制中心，您需要下载此软件包并按照所述步骤进行安装。</block>
@@ -1282,13 +1274,11 @@
   <block id="15dd8f83e9a999edc6eae56c5aec726e" category="paragraph">此页面简要概述了开始使用 Astra 控制中心所需的步骤。每个步骤中的链接将转到一个页面，其中提供了更多详细信息。</block>
   <block id="b777e6ba4555d404b00c2436d03ae649" category="inline-link-macro">许可信息</block>
   <block id="dc9e569caa79effd430c7ea63ceff7be" category="paragraph">试用！如果您要试用 Astra Control Center ，可以使用 90 天评估许可证。请参见 <block ref="3d35b4f40b39e7d8200f90f9d624f8f4" category="inline-link-macro-rx"></block> 了解详细信息。</block>
-  <block id="4854d4c0301c6f34c76f1cb78057e09e" category="list-title">跨度 class="image&gt;&lt;img src=<block ref="0c3becc25d95e48b9ca863002a042824" category="inline-link-rx"></block> Alt-one"&gt;&lt;/span&gt; 查看 Kubernetes 集群要求</block>
   <block id="c287552db25a1fab7b049bb27d492f51" category="list-text">Astra 可与具有 Trident 配置的 ONTAP 存储后端或 Astra 数据存储预览存储后端的 Kubernetes 集群结合使用。</block>
   <block id="0deb5023224ed4d71135e9bae6dff9d4" category="list-text">集群必须以运行状况良好的状态运行，并且至少有三个联机辅助节点。</block>
   <block id="5f08198ddd920cae8e4af705793b2a56" category="list-text">集群必须运行 Kubernetes 。</block>
   <block id="e34728b4f7a3f87b9d4e4bc0568096e1" category="inline-link-macro">了解有关 Astra 控制中心要求的更多信息</block>
   <block id="dc36d12219c1097713b63def4e923028" category="paragraph"><block ref="cb100f378703845999b4907e7c8315fb" category="inline-link-macro-rx"></block>。</block>
-  <block id="9384595b10ef347b2da67882c7b37bd7" category="list-title">跨度 class="image&gt;&lt;img src=<block ref="c9bdd0fd7d7224adcf67691b15f15281" category="inline-link-rx"></block> Alt-twe"&gt;&lt;/span&gt; 下载并安装 Astra 控制中心</block>
   <block id="afdff0e68ce5b4b3109d398df16872f7" category="inline-link">NetApp 支持站点 Astra 控制中心下载页面</block>
   <block id="b6511e86f155fe09cdd3bb8e739ea6b5" category="list-text">从下载 Astra 控制中心<block ref="287561c5277beeaf3b39a65b237114c8" category="inline-link-rx"></block>。</block>
   <block id="276a11727deff1a1f5ebf349b23835fc" category="list-text">在本地环境中安装 Astra Control Center 。</block>
@@ -1298,7 +1288,6 @@
   <block id="caa2daddac20e8701619c1fd7c38fe0b" category="paragraph">您可以在 OpenShift 注册表上安装映像，也可以使用本地注册表。</block>
   <block id="4cb444388821c2b32d8c80c962e7f1c0" category="inline-link-macro">了解有关安装 Astra 控制中心的更多信息</block>
   <block id="868d347e9c5a5e26320992d6e87924f1" category="paragraph"><block ref="85d4e7b942cbd0c7d715ed76a5e5652f" category="inline-link-macro-rx"></block>。</block>
-  <block id="80de081c75779cda8e2db1de0f292684" category="list-title">跨度 class="image&gt;&lt;img src=<block ref="ddd753dc2858fe3a5582f20b300a0541" category="inline-link-rx"></block> Alt-Three &lt;/span&gt; 完成一些初始设置任务</block>
   <block id="f13e95a655fb97423bd52082209d8781" category="list-text">添加许可证</block>
   <block id="89a40ca78d4ff20ec6d54ba006768895" category="list-text">添加 Kubernetes 集群， Astra 控制中心将发现详细信息。</block>
   <block id="6d1c9119490d3892054a1cfdca439215" category="list-text">添加 ONTAP 或 Astra 数据存储预览存储后端。</block>
@@ -1314,7 +1303,6 @@
   <block id="a9a11c7d000cd067981f61a0db579f74" category="summary">您应运行灵活性检查，以确保集群已准备好添加到 Astra 控制中心。</block>
   <block id="0ab8b406c4d5e3b8a7e5b402912b73fc" category="doc">添加集群的前提条件</block>
   <block id="84fccda9e18ab736ae1e33ef33ff8543" category="paragraph">在添加集群之前，应确保满足前提条件。您还应运行资格检查，以确保集群已准备好添加到 Astra 控制中心。</block>
-  <block id="32ce911ba9da44dfbcba79bbe607d8f0" category="section-title">添加集群之前需要满足的要求</block>
   <block id="46071ecf3cc6ea1619ad76021e951cc6" category="list-text">以下类型的集群之一：</block>
   <block id="a4a555ce407a7c7e6c4672e426b35f6d" category="list-text">运行 OpenShift 4.6 ， 4.7 或 4.8 的集群，其中包含由 Astra 数据存储或 ONTAP 9.5 或更高版本提供支持的 Astra Trident StorageClasses</block>
   <block id="651cf0b7f84c677320f45d5d6816398a" category="list-text">运行 Rancher 2.5 的集群</block>
@@ -1556,7 +1544,6 @@
   <block id="6c97574dc1b4c1296eabcd490b901dbf" category="list-text">将集群名称从 `Kubernetes` 更新为唯一的自定义名称（在以下示例中使用`xyz-cluster` ）。在 `clusters` 和 `Context` 部分进行更新，如以下示例所示：</block>
   <block id="a445040139f09298f7fa8e3a22ea47fa" category="section-title">使用 Ppass by reference operators 安装的应用程序克隆可能会失败</block>
   <block id="cee3f7f1743165823d88b27d5998cf00" category="paragraph">Astra Control 支持使用命名空间范围的运算符安装的应用程序。这些操作员通常采用 " 按价值传递 " 架构，而不是 " 按参考传递 " 架构。以下是一些遵循这些模式的操作员应用程序：</block>
-  <block id="015b7ce9577ab8215272b79fab0e4df6" category="section-title">尽管集群和网络在其他方面按预期工作，但集群处于 "Removed" 状态</block>
   <block id="d2345544e5b85f26908fbbfcea4178f8" category="inline-link-macro">Astra Control API</block>
   <block id="94058465ef9a6d58d42576a344fed5af" category="paragraph">如果集群处于 `removed` 状态，而集群和网络连接运行状况良好（外部尝试使用 Kubernetes API 访问集群成功），则您为 Astra Control 提供的 kubeconfig 可能不再有效。这可能是由于集群上的证书轮换或到期造成的。要更正此问题描述，请使用在 Astra Control 中更新与集群关联的凭据 <block ref="a2191a9273bc54ae2e00dd51b40d424f" category="inline-link-macro-rx"></block>：</block>
   <block id="66edf4995b8868e964c7fcd7d02a19e0" category="list-text">运行 POST 调用，将更新后的 kubeconfig 文件添加到 ` 凭据` 端点，并从响应正文中检索分配的 `id` 。</block>
@@ -1581,7 +1568,6 @@
   <block id="6dd84389e57d1bd5301a28cd06213505" category="paragraph">如果受管应用程序中的 Pod 运行状况不正常，则 Astra Control 无法创建新的备份和克隆。</block>
   <block id="52613a0e2a34040faff2fa3713d61414" category="section-title">与 Postgres Pod 的现有连接导致故障</block>
   <block id="a3e438b957ae4a8b4731d63d2e88365f" category="paragraph">在 Postgres Pod 上执行操作时，不应直接在 Pod 中连接以使用 psql 命令。Astra Control 需要使用 psql 访问权限来冻结和解冻数据库。如果已建立连接，则快照，备份或克隆将失败。</block>
-  <block id="39feb634693572723a378befc20023aa" category="section-title">未从集群中卸载 Trident</block>
   <block id="185d9e7bb43f5673a0095e89e4b5cfc9" category="inline-link">请按照 Trident 文档中的以下步骤进行操作</block>
   <block id="e516d0c3ddb020e2ecc9f93439922ef0" category="paragraph">从 Astra 控制中心取消管理集群时， Trident 不会自动从集群中卸载。要卸载 Trident ，您需要<block ref="11951e75a5c670d49400c1d12d4333d6" category="inline-link-rx"></block>。</block>
   <block id="1bbc2c911ad84b888a3a81466e9dc65e" category="list-text"><block ref="1bbc2c911ad84b888a3a81466e9dc65e" category="inline-link-macro-rx"></block></block>
@@ -1628,7 +1614,6 @@
   <block id="865703399dbe83111d40cdbc0cf36d50" category="section-title">如果选择包含另一种类型的凭据的存储分段提供程序类型，则会导致数据保护失败</block>
   <block id="4f36fb3713e66643baef6c35bc9f41b6" category="paragraph">添加存储分段时，请选择正确的存储分段提供程序，并为此提供程序输入正确的凭据。例如， UI 接受 NetApp ONTAP S3 作为类型并接受 StorageGRID 凭据；但是，这将发生原因使使用此存储分段执行所有未来应用程序备份和还原失败。</block>
   <block id="c62766292d642e4d3c2f78cc22c7d571" category="section-title">删除 Astra Control Center 实例期间，备份和快照可能不会保留</block>
-  <block id="5b3294628def37531167489c5f2faf95" category="section-title">克隆操作不能使用默认值以外的其他分段</block>
   <block id="9f097dac85ac3ea6adc46bf130f734ac" category="inline-link-macro">更改存储分段默认值</block>
   <block id="402051f4be0cc3aad33bcf3ac3d6532b" category="inline-link-macro">backup</block>
   <block id="bb2ac0b8da1f64a3498af147ba43fc10" category="inline-link-macro">还原</block>
@@ -1640,7 +1625,6 @@
   <block id="885a0d954fa2993f5dd836d15e760d49" category="section-title">自定义应用程序执行钩脚本超时，发生原因快照后脚本不可执行</block>
   <block id="1f8c5caea7c9ae9483dd91dca0cbea0e" category="paragraph">如果执行挂机运行时间超过 25 分钟，则此挂机将失败，从而创建返回代码为不适用的事件日志条目。任何受影响的快照都将超时并标记为失败，并会生成一个事件日志条目，用于记录超时情况。</block>
   <block id="17d3f28d49d56e0703e3a6f4d50f0a36" category="paragraph">由于执行挂钩通常会减少或完全禁用其运行的应用程序的功能，因此您应始终尽量缩短自定义执行挂钩运行所需的时间。</block>
-  <block id="d9ad9044513bb2a4324591a9e0425c85" category="section-title">无法确定扩展环境中的 ASUP tar 包状态</block>
   <block id="666f9f1fc732418db675716e4d964efc" category="paragraph">在 ASUP 收集期间， UI 中的捆绑包状态会报告为 `collecting` 或 `done` 。对于大型环境，收集可能需要长达一小时的时间。在 ASUP 下载期间，此捆绑包的网络文件传输速度可能不足，下载可能会在 15 分钟后超时，而 UI 中没有任何指示。下载问题取决于 ASUP 的大小，扩展的集群大小以及收集时间是否超过七天限制。</block>
   <block id="277d303328081a08d224ba1791474f8c" category="section-title">使用外部快照程序 4.2.0 版时，快照最终开始失败</block>
   <block id="989f15ab4fafcbe33b5c793f7c17921f" category="inline-link">支持的版本</block>
@@ -1700,7 +1684,6 @@
   <block id="85d3f736ce18017c45e8a6ae4d1e8fe5" category="list-text">编辑 <block ref="aa49db316689710519b7c8def18b8801" category="inline-link-macro-rx"></block> 更改 Helm 安装超时：</block>
   <block id="7a80cbdb518e1d355b96f0f85cfc440d" category="inline-link-macro">Astra 控制中心自定义资源（ CR ）文件（ Astra_control_center_min.yaml ）</block>
   <block id="f0e4789c9bc3e68aa311924dc6728d18" category="list-text">编辑 <block ref="4c6c00b260f38942b09c4617203862e3" category="inline-link-macro-rx"></block> 并在 `sPec` 下添加突出显示的其他值：</block>
-  <block id="d9eccd26e5cbb8da91b3a27fd92bd333" category="section-title">Astra 控制中心显示 Astra Data Store 预览存储后端处于未知状态</block>
   <block id="549ef937be092b5163803516d9dba2ce" category="paragraph">Astra 控制中心从用户界面的后端页面中显示处于 `未知` 状态的 Astra Data Store 预览存储后端。在这种情况下，存储后端实际可用，可以与通信。存储后端中的组件可能处于不正常状态，需要将其恢复为正常状态，以便存储后端显示为 `Available` 。</block>
   <block id="5bc8792f4d0618bc7421137123233c68" category="summary">NetApp 以多种方式为 Astra Control 提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和可宽延的渠道。您的 Astra Control 帐户包括通过 Web 服务单提供的远程技术支持。</block>
   <block id="231cf4c70d866b616c21baddaeed0696" category="doc">故障排除</block>
@@ -1815,4 +1798,29 @@
   <block id="ae5601e1a5453d0b5924098584b9c3f2" category="sidebar">此版本的 Astra 控制中心中的新增功能</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
   <block id="aa42d5edad3eb6d4a82eb3923c8ffb14" category="sidebar">Astra Control Center 21.12文档</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">结果</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="section-title">下一步行动</block>
+  <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">您需要的内容</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">关于此任务</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一个</block>
+  <block id="13a0d74de4f994f2861da351c22e5549" category="list-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 查看 Kubernetes 集群要求</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">两个</block>
+  <block id="6e6d8bfff1b16149f8c62cfee0d2f62e" category="list-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 下载并安装Astra控制中心</block>
+  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三个</block>
+  <block id="ba9e9d1eb144bbf0eb66ffe3fb01e03a" category="list-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 完成一些初始设置任务</block>
+  <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">四个</block>
+  <block id="9824425bd5418e5e140ee6b8561b8914" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 使用 Astra 控制中心</block>
+  <block id="e5d9de39f7ca1ba2637e5640af3ae8aa" category="inline-image-macro">五个</block>
+  <block id="4e661ed0899ae91f577701320636fabf" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> 从此快速入门继续</block>
+  <block id="190b1d4301402be73ef9a56adefaf47b" category="section-title">添加集群之前需要满足的要求</block>
+  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="section-title">下一步是什么？</block>
+  <block id="b0bec2358236d5d91345b1e9e0a81746" category="section-title">集群位于中<block ref="b07286ebbb5bc7aa91cc3eaa8bc19711" prefix=" " category="inline-code"></block> 说明尽管集群和网络以其他方式正常运行</block>
+  <block id="65d25f81ce4ac60dc17acfe9f1c44ce1" category="section-title">未从集群中卸载Trident</block>
+  <block id="00b1ac32b7dbd08f34f95fc3177c5dee" category="section-title">Astra控制中心显示中的Astra Data Store预览存储后端<block ref="88183b946cc5f0e8c96b2e66e1c74a7e" prefix=" " category="inline-code"></block> state</block>
+  <block id="6d2d6dcdeb7eba42ceceeb112f05b859" category="section-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 备份所有应用程序</block>
+  <block id="596a8ca466f62d03c2dfc376a65cac71" category="section-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 为每个应用程序配置一个保护策略</block>
+  <block id="286778446d447b5a9df4054a3b3dd6f3" category="section-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 可选：调整保护策略</block>
+  <block id="50b2dc093d74b71cb482308eb930fb02" category="section-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 发生灾难时，请还原您的应用程序</block>
+  <block id="53c5fac0ba78b08ca3f0a270b746c5d2" category="section-title">重置其他用户的密码</block>
+  <block id="edb74efc05972c268b6cccf83996ac3e" category="section-title">更改用户的角色</block>
 </blocks>

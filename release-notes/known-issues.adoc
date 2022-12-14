@@ -16,25 +16,25 @@ summary: 已知问题可确定可能妨碍您成功使用此版本产品的问�
 
 以下已知问题会影响当前版本：
 
-*  with user-defined label goes into "removed" state
-*  to stop running app backup
-*  app restore from backup Trident creates a larger PV than the original PV
-*  performance impacted by large persistent volumes
-*  clones fail using a specific version of PostgreSQL
-*  clones fail when using Service Account level OCP Security Context Constraints (SCC)
-*  buckets between instances of Astra Control Center causes failures
-*  a bucket provider type with credentials for another type causes data protection failures
-*  and snapshots might not be retained during removal of an Astra Control Center instance
+* <<具有用户定义标签的应用程序将进入 " 已删除 " 状态>>
+* <<无法停止运行应用程序备份>>
+* <<在从备份中还原应用程序期间， Trident 会创建比原始 PV 更大的 PV>>
+* <<克隆性能受大型永久性卷影响>>
+* <<使用特定版本的 PostgreSQL 时应用程序克隆失败>>
+* <<使用服务帐户级别 OCP 安全上下文限制（ SCC ）时应用程序克隆失败>>
+* <<在 Astra 控制中心实例之间重复使用存储分段会导致失败>>
+* <<如果选择包含另一种类型的凭据的存储分段提供程序类型，则会导致数据保护失败>>
+* <<删除 Astra Control Center 实例期间，备份和快照可能不会保留>>
 * link:known-issues.html#clone-operation-cant-use-other-buckets-besides-the-default["克隆操作不能使用默认值以外的其他分段"]
-*  a cluster with Astra Control Center fails when default kubeconfig file contains more than one context
-*  internal service error when attempting Trident app data management
-*  app execution hook scripts time out and cause post-snapshot scripts not to execute
+* <<如果默认的 kubeconfig 文件包含多个上下文，则使用 Astra 控制中心管理集群将失败>>
+* <<尝试 Trident 应用程序数据管理时出现 500 个内部服务错误>>
+* <<自定义应用程序执行钩脚本超时，发生原因快照后脚本不可执行>>
 * link:known-issues.html#cant-determine-asup-tar-bundle-status-in-scaled-environment["无法确定扩展环境中的 ASUP tar 包状态"]
-*  eventually begin to fail when using external-snapshotter version 4.2.0
-*  app restore operations in the same namespace can fail
-*  fails if source version uses a container image registry that does not require authentication and target version uses a container image registry that requires authentication
-*  of Astra Control Center fails to clean up the monitoring-operator pod on the managed cluster
-*  of Astra Control Center fails to clean up Traefik CRDs
+* <<使用外部快照程序 4.2.0 版时，快照最终开始失败>>
+* <<同一命名空间中的同时应用程序还原操作可能会失败>>
+* <<如果源版本使用不需要身份验证的容器映像注册表，而目标版本使用需要身份验证的容器映像注册表，则升级将失败>>
+* <<卸载 Astra 控制中心无法清理受管集群上的监控操作员 POD>>
+* <<卸载 Astra 控制中心无法清理 Traefik CRD>>
 
 
 

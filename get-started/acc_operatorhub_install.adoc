@@ -15,7 +15,7 @@ summary: 如果您使用的是 Red Hat OpenShift ，则可以使用操作员安�
 
 完成此操作步骤后，您必须返回到安装操作步骤以完成 link:../get-started/install_acc.html#verify-system-status["剩余步骤"] 以验证安装是否成功并登录。
 
-.您需要什么？ #8217 ；将需要什么
+.您需要的内容
 * link:requirements.html["开始安装之前，请为 Astra Control Center 部署准备您的环境"]。
 * 在 OpenShift 集群中，确保所有集群操作员均处于运行状况良好的状态（`Available` is `true` ）：
 +
@@ -34,12 +34,12 @@ oc get apiservices
 
 
 .步骤
-*  the Astra Control Center bundle
-*  the bundle and change directory
-*  the images to your local registry
-*  the operator install page
-*  the operator
-*  Astra Control Center
+* <<下载 Astra Control Center 捆绑包>>
+* <<打开软件包的包装并更改目录>>
+* <<将映像添加到本地注册表>>
+* <<找到操作员安装页面>>
+* <<安装操作员>>
+* <<安装 Astra 控制中心>>
 
 
 

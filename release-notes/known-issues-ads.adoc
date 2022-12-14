@@ -64,7 +64,7 @@ metadata:
 
 
 
-== Astra 控制中心显示 Astra Data Store 预览存储后端处于未知状态
+== Astra控制中心显示中的Astra Data Store预览存储后端 `Unknown` state
 
 Astra 控制中心从用户界面的后端页面中显示处于 `未知` 状态的 Astra Data Store 预览存储后端。在这种情况下，存储后端实际可用，可以与通信。存储后端中的组件可能处于不正常状态，需要将其恢复为正常状态，以便存储后端显示为 `Available` 。
 

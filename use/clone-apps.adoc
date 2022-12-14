@@ -35,6 +35,7 @@ NOTE: Astra 控制中心中的 S3 存储分段不会报告可用容量。在备�
 `oc new-project WordPress` `oc adm policy add-SCS-to-group anyuid system ： serviceaccounts ： WordPress` `oc adm policy add-SCS-to-user privileged -z default -n WordPress`
 
 ====
+.您需要的内容
 要将应用程序克隆到其他集群，您需要一个默认存储分段。添加第一个存储分段时，它将成为默认存储分段。
 
 .步骤
@@ -59,6 +60,7 @@ NOTE: Astra 控制中心中的 S3 存储分段不会报告可用容量。在备�
 . * 克隆摘要 * ：查看有关克隆的详细信息并选择 * 克隆 * 。
 
 
+.结果
 Astra 控制中心会根据您提供的信息克隆该应用程序。如果新应用程序克隆在 * 应用程序 * 页面上处于 `可用` 状态，则克隆操作将成功。
 
 
