@@ -121,7 +121,6 @@
   <block id="c3314925ef2c97256c3237a450d6f4f5" category="list-text">ONTAP 9.5 及更高版本的 Trident 存储后端</block>
   <block id="5b4b1a973a4751fbfc2fda3bd9bac412" category="list-text">Astra 数据存储存储后端</block>
   <block id="51269e2584d26b04961877ec77db6da7" category="paragraph">在云互联环境中， Astra 控制中心使用 Cloud Insights 提供高级监控和遥测功能。如果没有 Cloud Insights 连接，则 Astra 控制中心可提供有限的（ 7 天的指标）监控和遥测功能，并通过开放式指标端点导出到 Kubernetes 原生监控工具（例如 Prometheus 和 Grafana ）。</block>
-  <block id="1bc8163319d46bff9915aa0226885a42" category="paragraph">Astra 控制中心完全集成到 AutoSupport 和 Active IQ 生态系统中，可为用户和 NetApp 支持提供故障排除和使用信息。</block>
   <block id="26849905a5aa23f71bc18ee28e352604" category="paragraph">您可以使用 90 天评估许可证试用 Astra Control Center 。评估版可通过电子邮件和社区（ Slack 通道）选项来支持。此外，您还可以从产品支持信息板访问知识库文章和文档。</block>
   <block id="b4851e92b19af0c5c82447fc0937709d" category="inline-link">要求</block>
   <block id="e63cc3795b9216d59b085bd3111a248d" category="paragraph">要安装和使用 Astra 控制中心，您需要满足特定的要求<block ref="bdde32b2c988689d803729c06660acb4" category="inline-link-rx"></block>。</block>
@@ -1422,8 +1421,6 @@
   <block id="641aa484b65c0e7fde013bc2c73c8773" category="cell">Cloud Insights 通信</block>
   <block id="dca17a8eb713c4979ff90034336d90db" category="cell">Amazon S3 存储分段提供商 <block ref="4e90f284db65fc9cd863090aa8767e3c" category="inline-link-rx"></block></block>
   <block id="30e3526a27f1ee2a9a8203d224600891" category="cell">Amazon S3 存储通信</block>
-  <block id="814db317c49c42a57e9b5fe4d5943fa8" category="cell">NetApp ActiveIQ <block ref="9e45a0209dd868ae736875db61b96d9d" category="inline-link-rx"></block></block>
-  <block id="5dbf9f76b95952a36b5c81bedd95e1c8" category="cell">NetApp ActiveIQ 通信</block>
   <block id="f370975993dbb1e7c1e24af01ed7986c" category="section-title">支持的 Web 浏览器</block>
   <block id="5ee52824555f7e54b800612663b9f098" category="paragraph">Astra 控制中心支持最新版本的 Firefox ， Safari 和 Chrome ，最小分辨率为 1280 x 720 。</block>
   <block id="159b2efa467f3d1f53e7c16668353bf5" category="inline-link-macro">快速入门</block>
@@ -1828,4 +1825,7 @@
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="931607e4df934f12f0a0d0323f739e8c" category="list-text"><block ref="46bdba95fad7359beee853f2ee144260" category="inline-link-macro-rx"></block>。</block>
+  <block id="4ffa5f8c75a25d5db0add99affd09af7" category="paragraph">Asta控制中心完全集成到AutoSupport和Active IQ数字顾问(也称为数字顾问)生态系统中、为用户和NetApp支持提供故障排除和使用信息。</block>
+  <block id="b01720cac678655d10d01884b38e0df9" category="cell">数字顾问<block ref="33723d61009b6ad6e20c37f5f073dad1" category="inline-link-rx"></block>)</block>
+  <block id="fffb137d34ba73dd7286c16dae165a77" category="cell">Digital Advisor通信</block>
 </blocks>

@@ -199,7 +199,7 @@ Astra 控制中心使用类型为 "loadbalancer" 的服务（在 Astra 控制中
 | Astra 控制中心 | Amazon S3 存储分段提供商  | 443. | HTTPS | Amazon S3 存储通信 
 
 
-| Astra 控制中心 | NetApp ActiveIQ  | 443. | HTTPS | NetApp ActiveIQ 通信 
+| Astra 控制中心 | 数字顾问(https://activeiq.solidfire.com[]) | 443. | HTTPS | Digital Advisor通信 
 |===
 
 
